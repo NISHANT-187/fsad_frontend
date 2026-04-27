@@ -67,7 +67,7 @@ export const AppProvider = ({ children }) => {
   const loadAllData = useCallback(async () => {
     setLoading(true);
     setDataError(null);
-    console.log('[AppContext] Fetching data from http://localhost:8080 ...');
+    console.log('[AppContext] Fetching data from https://fsad-backend-g1ye.onrender.com ...');
     try {
       const [s, a, p] = await Promise.all([
         getAllStudents().catch(e => { if (e.status === 401 || e.status === 403) return []; throw e; }),
@@ -99,7 +99,7 @@ export const AppProvider = ({ children }) => {
         setParticipationList([]);
         setDataError(null); 
       } else {
-        setDataError('Cannot reach backend at http://localhost:8080. Start the Spring Boot server.');
+        setDataError('Cannot reach backend at https://fsad-backend-g1ye.onrender.com.');
       }
     } finally {
       setLoading(false);

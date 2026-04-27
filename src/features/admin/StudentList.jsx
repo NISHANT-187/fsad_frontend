@@ -93,7 +93,7 @@ const StudentList = () => {
           <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>⚠️</div>
           <p>{dataError}</p>
           <p style={{ fontSize: '0.85rem', marginTop: '0.5rem', opacity: 0.7 }}>
-            Make sure the Spring Boot backend is running on http://localhost:8080
+            Make sure the backend is running at https://fsad-backend-g1ye.onrender.com
           </p>
         </div>
       </div>

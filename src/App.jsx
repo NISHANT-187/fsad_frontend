@@ -81,7 +81,7 @@ function BackendStatusBanner() {
       alignItems: 'center',
       gap: '0.5rem'
     }}>
-      ⚠️ Backend offline — Start Spring Boot on <strong>&nbsp;port 8080</strong>
+      ⚠️ Backend offline — Cannot connect to <strong>&nbsp;https://fsad-backend-g1ye.onrender.com</strong>
     </div>
   );
 }
