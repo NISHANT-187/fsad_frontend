@@ -36,7 +36,7 @@ NPM
 Git & GitHub
 🔧 Installation & Setup
 1️⃣ Clone the repository
-git clone https://github.com/git-shubham94/fed_hackathon
+git clone https://github.com/NISHANT-187/fsad_frontend
 cd fed_hackathon
 
 2️⃣ Install dependencies
